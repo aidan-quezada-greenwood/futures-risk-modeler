@@ -1,0 +1,51 @@
+{
+  "_comment": "Example prop firm configurations. Paste into sidebar fields when you open the app.",
+
+  "apex_micro_50k_eval": {
+    "firm_name": "Apex Trader Funding",
+    "account_type": "Evaluation",
+    "starting_balance": 50000,
+    "profit_target": 3000,
+    "max_drawdown": 2500,
+    "daily_loss_limit": 1000,
+    "drawdown_type": "trailing",
+    "min_trading_days": 7,
+    "consistency_rule": false
+  },
+
+  "topstep_50k_combine": {
+    "firm_name": "Topstep",
+    "account_type": "Evaluation",
+    "starting_balance": 50000,
+    "profit_target": 3000,
+    "max_drawdown": 2000,
+    "daily_loss_limit": 1000,
+    "drawdown_type": "static",
+    "min_trading_days": 5,
+    "consistency_rule": false
+  },
+
+  "myfunded_50k": {
+    "firm_name": "MyFundedFutures",
+    "account_type": "Evaluation",
+    "starting_balance": 50000,
+    "profit_target": 3000,
+    "max_drawdown": 2500,
+    "daily_loss_limit": 1000,
+    "drawdown_type": "trailing",
+    "min_trading_days": 10,
+    "consistency_rule": false
+  },
+
+  "personal_account_5k": {
+    "firm_name": "Personal",
+    "account_type": "Personal",
+    "starting_balance": 5000,
+    "profit_target": 0,
+    "max_drawdown": 500,
+    "daily_loss_limit": 150,
+    "drawdown_type": "static",
+    "min_trading_days": 0,
+    "consistency_rule": false
+  }
+}
