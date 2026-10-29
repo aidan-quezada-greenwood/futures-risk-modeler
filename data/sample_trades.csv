@@ -1,0 +1,16 @@
+id,date,session,instrument,setup_type,entry,stop,target,exit,contracts,result_r,dollar_pnl,mistake_tag,emotion_tag,quality_grade,notes
+1,2024-01-08,New York,MES,VWAP Bounce,4780.25,4778.00,4784.75,4784.75,1,1.99,24.88,None,Calm,A,Clean VWAP reclaim off morning lows. Held full target.
+2,2024-01-08,New York,MES,SR Rejection,4790.00,4792.50,4785.00,4792.50,1,-1.0,-12.48,Ignored Stop,Anxious,C,Moved stop wider after initial move against me. Should have honored original.
+3,2024-01-09,London,MGC,VWAP Bounce,2050.10,2048.60,2053.10,2053.10,1,2.0,30.00,None,Calm,A,Pre-market London setup. VWAP held perfectly.
+4,2024-01-09,New York,MES,Opening Range Break,4795.00,4792.75,4800.25,4797.50,2,1.11,27.75,Missed Exit,Confident,B,Good setup. Took partial at 50% of target instead of waiting for full.
+5,2024-01-10,New York,MES,EMA Pullback,4782.50,4780.25,4787.00,4780.25,1,-1.0,-12.48,FOMO,Frustrated,D,Chased a move already extended. No real pullback to EMA. Revenge for yesterday.
+6,2024-01-10,Overlap (London/NY),MGC,SR Rejection,2065.00,2066.50,2061.50,2061.50,1,2.33,35.00,None,Calm,A,Clean rejection at prior day high. Full target hit.
+7,2024-01-11,New York,MES,VWAP Bounce,4800.25,4798.00,4804.75,4803.50,1,1.44,18.00,Missed Exit,Confident,B,Exited one tick early. Should have let it run to full target.
+8,2024-01-12,New York,MES,Liquidity Sweep,4788.00,4786.50,4793.00,4786.50,1,-1.0,-12.48,None,Calm,B,Good read on liquidity sweep but failed to push. Setup was valid.
+9,2024-01-12,London,MGC,Trend Continuation,2045.50,2043.50,2051.50,2051.50,1,3.0,40.00,None,Confident,A,Textbook pullback entry in a trending London session.
+10,2024-01-15,New York,MES,SR Break,4810.00,4807.75,4815.00,4815.00,2,2.22,55.50,None,Calm,A,Strong breakout. Held two contracts to full target.
+11,2024-01-16,Afternoon,MES,Mean Reversion,4808.50,4810.75,4804.00,4810.75,1,-1.0,-12.48,Broke Rules,Bored,D,Afternoon trade with no real setup. Bored entry.
+12,2024-01-16,New York,MGC,VWAP Bounce,2058.00,2056.00,2062.00,2062.00,1,2.0,20.00,None,Calm,A,Solid morning setup. VWAP held.
+13,2024-01-17,New York,MES,EMA Pullback,4815.25,4813.00,4820.75,4817.00,1,0.78,9.75,Missed Exit,Confident,B,Early exit. Was nervous after previous losses.
+14,2024-01-18,London,MGC,SR Rejection,2070.00,2071.50,2066.00,2071.50,1,-1.0,-15.00,Chased Price,Anxious,C,Entered after the move had already happened. Late.
+15,2024-01-19,New York,MES,VWAP Bounce,4820.00,4817.75,4825.50,4825.50,1,2.11,26.25,None,Calm,A,Perfect setup. Patient entry on the reclaim. Full target.
