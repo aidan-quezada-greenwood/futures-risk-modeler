@@ -1,0 +1,17 @@
+# Local environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Personal trading records; only synthetic sample data is public.
+data/*
+!data/sample_trades.csv
