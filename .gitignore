@@ -15,3 +15,5 @@ __pycache__/
 # Personal trading records; only synthetic sample data is public.
 data/*
 !data/sample_trades.csv
+
+!data/demo_trades_60.csv
